@@ -1,0 +1,23 @@
+<!--pages/search/search.wxml-->
+<view class="search">
+<view class="search_aa">
+  <icon class='searchcion' size="20" type="search"></icon>
+  <input placeholder='搜索更多商品' name="search" class="search_input" bindinput='search' value='{{inputValue}}' />
+</view>
+  <view class="search_text" bindtap='search1'>搜索</view>
+
+</view>
+  <view class="goods" wx:for="{{list1}}" wx:key="index" wx:if="{{isShow}}">
+    <image src="{{item.img_url}}" lazy-load mode="aspectFill" class="goods_img">图片</image>
+    <view class="goods_right">
+        <view class="goods_title">{{item.describ}}</view>
+        <view class='goods_price'>￥:{{item.price}}</view>
+        <view class="goods_quantity">剩余数量:{{item.quantity}}</view>
+    </view>
+  </view>
+  <view wx:if="{{isShow2}}" class="footer">
+    <image src='../../assets/tabs/goods.png'></image>
+    <view>没有找到你想要的商品</view>
+    <view>换个搜索词试试</view>
+  </view>
+

@@ -1,0 +1,17 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+/*单行超出制定的范围截取内容病添加....*/
+/*通用功能一截取过长字符串...*/
+.ell{
+  overflow:hidden;/*溢出隐藏*/
+  white-space:nowrap;/*不允许换行*/
+  text-overflow:ellipsis;/*超出部分添加。。。*/
+}

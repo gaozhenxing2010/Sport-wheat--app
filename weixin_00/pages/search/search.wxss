@@ -1,0 +1,15 @@
+/* pages/search/search.wxss */
+/*搜索框*/
+.search{display: flex;background-color: #cccccc;height: 80rpx;}
+.search_aa{display: flex;background: white;text-align: center;width: 80%;position: relative;height: 60rpx;margin-top: 10rpx;margin-left: 10rpx;border-radius: 6rpx;}
+.search_text{width: 20%;font-size: 34rpx;text-align: center;margin-top: 12rpx;}
+.searchcion{position: absolute;top: 7rpx;left: 135rpx;}
+.search_aa input{width: 100%;}
+.goods{width: 100%; display: flex;border-bottom: 1px solid #cccccc;}
+.goods_img{display: block;height: 100px;width: 30%;margin: 14px;}
+.goods_right{width: 70%;font-size: 13px;}
+.goods_title{margin-top: 20px;}
+.goods_price{color:red;font-size: 16px;margin-top: 14px;}
+.goods_quantity{font-size: 12px;color:#cccccc;margin-top: 5px;}
+.footer{text-align: center;width: 100%;margin-top: 40px;}
+.footer image{width:150px;height: 150px;}

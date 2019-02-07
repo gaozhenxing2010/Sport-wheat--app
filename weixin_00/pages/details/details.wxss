@@ -1,0 +1,48 @@
+/* pages/details/details.wxss */
+/**功能一:轮播图**/
+.index-container{background-color: #f5f5f5;position: relative;}
+.slider,.slider swiper,.slider image{
+  height:750rpx;
+  width:100%;
+}
+.details{margin-top:20rpx;padding-bottom: 114rpx;}
+.describ{font-size: 30rpx;width: 700rpx;font-weight: bold;margin-left: 20rpx;}
+.price{color: red;font-size:45rpx;margin-left: 20rpx;}
+.Market{font-size: 26rpx;color:#ababab;text-decoration:line-through;margin-left: 20rpx;}
+/*分割线样式*/
+.divLine{
+ background: #E0E3DA;
+ width: 100%;
+ height: 2rpx;
+}
+/**分隔块**/
+.divider{
+  height:30rpx;
+  background-color:#f1f1f1; 
+}
+.clear_fix{clear: both;}
+.freight{font-size: 26rpx;color:#595959;float: left;line-height: 80rpx;margin-left: 20rpx;}
+.quantity{float: right;font-size: 26rpx;color:#595959;line-height: 80rpx;margin-right: 20rpx;}
+.Promotion{font-size: 30rpx;line-height: 80rpx;margin-left: 20rpx;}
+.ShoeSize{text-align: left;font-size: 34rpx;}
+button::after{border: none;}
+.Delivery{text-align: left;font-size: 34rpx;}
+/*商品详情 成交记录 */
+.count{width: 100%;font-size: 34rpx;}
+.infor{width: 50%;float: left;text-align: center;color: #565656;}
+.record{width: 50%;float: right;text-align: center;color:#565656;}
+.active{border-bottom:2rpx solid red; color:green;height: 80rpx;}
+.details_img image{width: 750rpx;height: 10285rpx;}
+/* 固定标签购物车*/
+.fixed{position: fixed;top: 1096rpx;left:0rpx;width: 100%;background: white;box-sizing: border-box;}
+.icon{width:30%;float: left;font-size: 24rpx;text-align: center;height: 114rpx;}
+.index{float: left;padding-left:20rpx;}
+.index image{width: 80rpx;height:80rpx;display: block;}
+.car{float: right;padding-right: 20rpx;}
+.car image{width: 80rpx;height: 80rpx;display: block;}
+.label{float:right; width: 70%;}
+.shop{float: left;width: 50%;border-radius: 0rpx;line-height: 114rpx;background:#595959;color: white;}
+.now{float: right;width: 50%;border-radius: 0rpx;line-height: 114rpx;background: red;color: white;}
+.record_tt{text-align: center;}
+.record_text{line-height: 150rpx;width: 100%;}
+

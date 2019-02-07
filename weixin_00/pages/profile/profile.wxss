@@ -1,0 +1,39 @@
+/* pages/profile/profile.wxss */
+.avatar{
+  background-color: #ff6600;
+  height: 400rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.avatar image{
+  width: 190rpx;
+  height: 190rpx;
+  border-radius: 50%;
+  border: 3px solid rgba(0, 0, 0, .3);
+}
+.divider{
+  height: 30rpx;
+  background-color: #f1f1f1;
+}
+.cell{
+  background-color: #fff;
+  font-size: 16px;
+}
+.cell-item{
+  padding: 20rpx 30rpx;
+  border-bottom: 1rpx solid #ddd;
+}
+.arrow{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.arrow:after{
+  content: "";
+  width:15rpx;
+  height: 15rpx;
+  border-top: 3px solid #ccc;
+  border-right: 3px solid #ccc;
+  transform: rotate(45deg);
+}

@@ -1,0 +1,11 @@
+<!--pages/shoplist/shoplist.wxml-->
+<!--商品列表-->
+<view class="count">
+  <view wx:for='{{list}}' wx:key="index" class="count_dd">
+    <image src="{{item.img_url}}" lazy-load mode="aspectFill" bindtap='handleJump' data-id='{{item.lid}}'></image>
+    <view class='border'>
+      <view class="price">￥{{item.price}}</view>
+      <view class="cart" bindtap='addCart'><image src='../static/card1.png'></image></view>
+    </view>
+  </view>
+</view>

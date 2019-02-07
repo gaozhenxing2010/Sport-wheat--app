@@ -1,0 +1,52 @@
+/**index.wxss**/
+/*搜索功能*/
+.search{border: 1px solid #d0d0d0;border-radius: 30rpx;text-align: center;width: 90%;margin: 0 auto;overflow: hidden;padding-top: 5rpx;padding-bottom: 5rpx;margin-top: 15rpx;margin-bottom: 15rpx;}
+.searchcion{float:left;line-height: 20rpx;margin-left: 100rpx;}
+.search_input{float:left;font-size: 32rpx;}
+
+/**功能一:轮播图**/
+.slider,.slider swiper,.slider image{
+  height:390rpx;
+  width:100%;
+}
+/**功能二:九宫格**/
+.index-nav{
+   display: flex;
+   flex-wrap: wrap;
+}
+.nav-item{
+   width:33.33333%;
+   height:200rpx;
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   font-size:14px;
+   /*右侧添加边框,底部添加边框*/
+   border-right:1rpx solid #ccc;
+   border-bottom:1rpx solid #ccc;
+}
+.nav-item:nth-child(3n){
+  border-right:0 none;
+}
+.nav-item image{
+   width:102rpx;
+   height:102rpx;
+}
+/**功能三:分隔块**/
+.divider{
+  height:30rpx;
+  background-color:#f1f1f1; 
+}
+/* 功能四：商品分类 */
+.commodity{display: flex;flex-wrap: wrap;}
+.commodity image{width: 355rpx;height: 376rpx;}
+.commodity_left{width: 50%;box-sizing: border-box;padding: 5px 5px;}
+.btn1{width: 100rpx;line-height: 45rpx;font-size: 30rpx;
+border-radius: 30rpx;background-color:red;color:#fff;
+text-align: center;float:right;
+}
+.price{color:red;float: left;}
+.content{font-size: 32rpx;margin: 10rpx;margin-bottom: 10rpx;}
+/**功能:按钮**/
